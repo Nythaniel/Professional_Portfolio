@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cookingApp.css"> 
+</head>
+<body>
+    <h1>Cooking Recipe App</h1>
+<div class ="main">
+
+    <input type="text" id="userInput" placeholder="Recipe" required>
+    <input type="text" id="userDescription" placeholder="Description">
+    <button id="Submit" onclick="add()"> Add Recipe</button> 
+    <button id ="Delete"> Delete Recipe</button>
+</div>
+      
+    
+<div class="box">   
+    <h2 id="display"></h2>
+    <p id="Description"></p>
+    <p id="validate"></p> 
+    <input type="file" id="imageInput">
+    <img id="displayImage" style="max-width: 500px; display: none;">
+</div>
+   
+    <script src="CookingApp.js"></script>
+</body>
+</html>
